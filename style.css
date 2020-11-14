@@ -1,0 +1,119 @@
+body{
+  font: 16px/1.5 Arial,Helvetica, sans-serif;
+  padding:0;
+  min-height: 0;
+  min-width: auto;
+  background-color: #f5f5f5
+}
+
+/*Global*/
+.container{
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+
+/*Header*/
+
+header{
+  background:#b0c4de;
+  color:#ffffff;
+  padding-top:10px;
+  min-height: 90px;
+  border-bottom: #4682b4 3px solid
+}
+
+header a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px
+}
+
+header li{
+  float:right;
+  display:inline;
+  padding:0 20px 0 20px
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-bottom: 100px
+}
+
+header .current a{
+  color:#ff7f50;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+  min-height:650px;
+  background:url('../img/pandemic.jpg') 50%;
+  text-align: center;
+  color:#ffffff;
+}
+#showcase h1{
+  margin-top: 260px;
+  font-size:70px;
+  margin-bottom: 10px;
+}
+
+#Boxes .box1{
+  text-align: center;
+  text-decoration: none;
+}
+
+#Boxes .box2{
+  text-align: center;
+  text-decoration: none;
+}
+
+#Boxes .box3{
+  text-align: center;
+  text-decoration: none;
+}
+#Boxes img{
+  width:100px;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#87ceed;
+  text-align:center;
+}
+
+#situation img{
+  width:600px;
+}
+
+#prevention img{
+  width:100px;
+  text-align: center;
+}
+
+.b5 h2{
+  padding:20px;
+  margin: auto;
+  text-align: center;
+  font-size: 25px;
+}

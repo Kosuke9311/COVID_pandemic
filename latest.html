@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="the current situation because of COVID-19 in the world">
+    <meta name="author" content="Kosuke Hisano">
+    <title>coronavirus disease|COVID-19|Current</title>
+    <style media="screen">
+      .intro{
+              display:grid;
+              grid-template-columns: 50% 50%;
+              grid-gap:1em;
+              grid-auto-rows: minmax(100px, auto);
+            }
+
+      .intro > div{
+          background:#f5f5f5;
+              padding:.5em;
+            }
+      .common{
+              display:grid;
+              grid-template-columns: repeat(3,1fr);
+              grid-gap:.5em
+            }
+      .common > div{
+              padding:.5em;
+            }
+      .box1{
+        grid-column:1/3;
+      }
+      .box2{
+        grid-column:1/2
+      }
+      .box3{
+        grid-column:2/3
+      }
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>Koh-channel</h1>
+        </div>
+        <nav class="container">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li class="current"><a href="latest.html">CURRENT INFORMATION</a></li>
+            <li><a href="method.html">PREVENTION METHODS</a></li>
+          </ul>
+        </nav>
+    </div>
+    </header>
+
+    <section id="main">
+      <div class="container">
+        <div class="intro">
+          <div>
+            <img src="./img/maskpeople.jpg">
+          </div>
+        <div>
+        <p>The virus is primarily spread between people during close contact, often via small droplets produced by coughing, sneezing, or talking. The droplets usually fall to the ground or onto surfaces rather than remaining in the air over long distances. People may also become infected by touching a contaminated surface and then touching their face. On surfaces, the amount of virus declines over time until it is insufficient to remain infectious, but it may be detected for hours or days. It is most contagious during the first three days after the onset of symptoms, although spread may be possible before symptoms appear and in later stages of the disease.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="situation">
+      <div class="container">
+      <div>
+        <h2>Current Situation in The World</h2>
+        <p>The pandemic has caused severe global socioeconomic disruption, including the largest global recession since the Great Depression. It has led to the postponement or cancellation of sporting, religious, political and cultural events, widespread supply shortages exacerbated by panic buying, and decreased emissions of pollutants and greenhouse gases. Schools, universities and colleges have closed either on a nationwide or local basis in 194 countries, affecting approximately 98.5 per cent of the world's student population. Misinformation about the virus has spread online, and there have been incidents of xenophobia and discrimination against Chinese people and against those perceived as being Chinese, or as being from areas with high infection rates.</p>
+        <p>Authorities in China and some other countries have succeeded in slowing their outbreaks. However, the situation is unpredictable so check regularly for the latest news.</p>
+      </div>
+      <div class="graph">
+        <strong>Cases by Country Reported of April 30,2020</strong>
+        <p><img src="./img/graph.png"><br><small>Source:Coronavirus Cases by Country, Japan Data, nippon.com</small></p>
+        <p>If you want to know the latest information in the world,<br>Click these links <a href="https://vdata.nikkei.com/en/newsgraphics/coronavirus-world-map/">map</a>, <a href="https://www.worldometers.info/coronavirus/">cases graphs</a></p>
+      </div>
+    </div>
+    </section>
+
+
+      <footer>
+      <p>Coronavirus Pandemic, Copyright &copy; 2020</p>
+    </footer>
+  </body>
+</html>
